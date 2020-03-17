@@ -10,6 +10,17 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 
 
 // ============================
+//  Venciominto de token
+// ============================
+
+process.env.CADUCIDAD_TOKEN=60*60*24*30;
+
+// ============================
+//  SEED
+// ============================
+process.env.SEED= process.env.SEED|| 'este-es-el-seed-desarrollo';
+
+// ============================
 //  Base de datos
 // ============================
 let urlDB;
